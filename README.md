@@ -9,29 +9,26 @@ Klasična Atari Breakout igra napravljena s vanilla JavaScript i HTML5 Canvas AP
 
 ## Tehnologije
 
-- Čisti HTML5, CSS3 i JavaScript
+- HTML5, CSS3 i JavaScript
 - Canvas API za grafiku
 - Web Storage API za spremanje najboljih rezultata
-- Nema vanjskih biblioteka ili frameworka
 
 ## Kako igrati
 
 1. Otvori `index.html` u web pregledniku
-2. Pritisni **SPACE** za početak igre
-3. Koristi **strelice lijevo/desno** za pomicanje palice
-4. Uništi svih 50 cigli kako bi pobijedio
-5. Nemoj dopustiti da loptica padne ispod palice
+2.  **SPACE** za početak igre
+3.  **strelice lijevo/desno** za pomicanje palice
 
 ## Funkcionalnosti
 
-✅ 50 cigli u 5 redova i 10 stupaca
-✅ Različite boje cigli po redovima
-✅ 3D efekt sjenčanja na svim elementima
-✅ Loptica se odbija od palice, cigli i zidova
-✅ Praćenje trenutnog i najboljeg rezultata
-✅ Spremanje najboljeg rezultata u localStorage
-✅ Zvučni efekti za sudare
-✅ Start, Game Over i Win ekrani
+- 50 cigli u 5 redova i 10 stupaca
+- Različite boje cigli po redovima
+- 3D efekt sjenčanja na svim elementima
+- Loptica se odbija od palice, cigli i zidova
+- Praćenje trenutnog i najboljeg rezultata
+- Spremanje najboljeg rezultata u localStorage
+-Zvučni efekti za sudare
+-Start, Game Over i Win ekrani
 
 ## Struktura projekta
 
@@ -47,7 +44,7 @@ atari_project/
 ## Lokalno pokretanje
 
 ### Metoda 1 - Direktno otvaranje
-Jednostavno otvori `index.html` datoteku u pregledniku.
+ otvoriti `index.html` datoteku u pregledniku.
 
 ### Metoda 2 - Lokalni server
 ```bash
@@ -58,4 +55,4 @@ python3 -m http.server 8000
 npx http-server
 ```
 
-Zatim otvori `http://localhost:8000` u pregledniku.
+Zatim otvoriti `http://localhost:8000` u pregledniku.
