@@ -1,0 +1,23 @@
+/* General page styling */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Helvetica, Verdana, sans-serif;
+}
+
+/* Canvas styling */
+#gameCanvas {
+    background-color: #000000;
+    border: 5px solid #ffffff;
+    display: block;
+}
+
+/* Hide audio elements */
+audio {
+    display: none;
+}
