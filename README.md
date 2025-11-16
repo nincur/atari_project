@@ -4,7 +4,8 @@ Klasična Atari Breakout igra napravljena s vanilla JavaScript i HTML5 Canvas AP
 
 ## Linkovi
 
-- **Live Demo**: [URL će biti dodan]
+- **GitHub Repozitorij**: https://github.com/nincur/atari_project
+- **Live Demo**: https://nincur.github.io/atari_project
 
 ## Tehnologije
 
